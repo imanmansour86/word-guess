@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
 
   <body>
@@ -15,13 +16,19 @@
 
     <div id="main">
       <div id="word-container">
-        <h2>Word here</h2>
+        <input id="letter" type="text" />
+        <p id="answer"></p>
       </div>
 
       <div id="result">
         <button id="reset">Reset</button>
-        <h3>Time: 0</h3>
+        <div id="time">Time: 0</div>
+      </div>
+      <div id="score">
+        <div>Wins:</div>
+        <div>Losses:</div>
       </div>
     </div>
+    <script src="assets/script.js"></script>
   </body>
 </html>
